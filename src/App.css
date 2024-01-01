@@ -1,7 +1,9 @@
 .App {
   text-align: center;
 }
-
+h1{
+  text-align: center;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -11,8 +13,21 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+  .app-container{
+    width: 60%;
+    margin-right: 60px;
+  }
 }
-
+.app-container{
+  background-color: cyan;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 125px;
+  margin-top: 60px;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
